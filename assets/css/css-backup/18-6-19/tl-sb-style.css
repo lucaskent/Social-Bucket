@@ -1,0 +1,10 @@
+/**
+frontend style 
+**/
+.tl-sb-stickypos-right {position: fixed;right: 0;top: 50%;z-index: 999;transform: translate(0, -50%);}
+.tl-sb-preview-area.tl-sb-stickypos-left { position: fixed; left: 0;top: 50%;z-index: 999;transform: translate(0, -50%)}
+.tl-sb-stickypos-inline a {display: inline-block;vertical-align: top;}
+
+.tl-sb-icon-block {position: absolute;top: 0;left: 0;}
+.tl-sb-preview-area.tl-sb-stickypos-left a {display:block;position: relative;box-shadow:none !important;}
+.tl-sb-preview-area.tl-sb-stickypos-right a {display:block;position: relative;box-shadow:none !important;}

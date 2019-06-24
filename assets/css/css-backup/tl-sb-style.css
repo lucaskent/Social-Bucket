@@ -1,0 +1,34 @@
+.tl-sb-preview-area.tl-sb-stickypos-inline a {
+    display: inline-block;
+    position: relative;
+	box-shadow:none;
+	line-height: 0.8em;
+	text-align: center;
+}
+.tl-sb-icon-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.tl-sb-preview-area.tl-sb-stickypos-left {
+    position: fixed;
+    left: 0;
+    top: 38%;
+    z-index: 99;
+}
+.tl-sb-preview-area.tl-sb-stickypos-left a {
+    display:block;
+    position: relative;
+	box-shadow:none !important;
+}
+.tl-sb-preview-area.tl-sb-stickypos-right {
+    position: fixed;
+    right: 0;
+    top: 38%;
+    z-index: 99;
+}
+.tl-sb-preview-area.tl-sb-stickypos-right a {
+    display:block;
+    position: relative;
+	box-shadow:none !important;
+}
